@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="ad.size" content="width=728,height=90">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        body,html{
+            height: 90px;
+            width: 728px;
+            position: relative;
+            top: 0;
+            left: 0;
+            cursor: pointer;
+            overflow: hidden;
+        }
+
+        .ad_box{
+            height: 90px;
+            width: 728px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: grey;
+        }
+
+        .road_curve{
+            height: 45px;
+            width: 45px;
+        }
+
+        .element_1,.element_2,.element_4,.element_5{
+            height: 45px;
+            width: 45px;
+            position: absolute;
+        }
+
+        .element_8,.element_9{
+            height: 45px;
+            width: 45px;
+            position: absolute;
+        }
+
+
+        .element_1{
+            top: 0px;
+            left: 45px;
+        }
+
+        .element_2{
+            top: 0px;
+            left: 90px;
+        }
+
+
+
+        .element_4{
+            top: 0px;
+            left: 180px;
+        }
+
+        .element_5{
+            top: 0px;
+            left: 225px;
+        }
+
+
+        .element_8{
+            top: 45px;
+            left: 112px;
+        }
+
+        .element_9{
+            top: 45px;
+            left: 157px;
+        }
+
+        .element_10{
+            height: 90px;
+            width: auto;
+            position: absolute;
+            left: 285px;
+            z-index: 99;
+        }
+
+        .element_11{
+            position: absolute;
+            top: 55px;
+            left: 45px;
+            transition: 10s ease;
+            z-index: 999;
+        }
+
+        .car{
+            height: 25px;
+            width: 30px;
+        }
+
+        .mosque{
+            height: 90px;
+            width: auto;
+        }
+
+        .element_12{
+            position: absolute;
+            top: 25px;
+            left: 390px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="ad_box">
+        <div class="element_1"><img src="road_1.png" class="road_curve"></div>
+        <div class="element_2"><img src="road_1.png" class="road_curve"></div>
+
+        <div class="element_4"><img src="road_1.png" class="road_curve"></div>
+        <div class="element_5"><img src="road_1.png" class="road_curve"></div>
+        <div class="element_8"><img src="road_1.png" class="road_curve"></div>
+        <div class="element_9"><img src="road_1.png" class="road_curve"></div>
+        <div class="element_10"><img src="mosque.png" class="mosque"></div>
+        <div class="element_11"><img src="hi.gif" class="car"></div>
+        <div class="element_12">মসজিদ যাওয়ার জন্য রাস্তা বানাতে ক্লিক করুন!</div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
